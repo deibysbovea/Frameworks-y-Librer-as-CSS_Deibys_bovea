@@ -1,0 +1,88 @@
+body {
+  background-image: url(../img/fondo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Didact Gothic', sans-serif;
+}
+.header {
+  color: white;
+}
+h4 {
+  text-align: left;
+}
+h2,
+h4 {
+  font-family: 'Satisfy', cursive;
+}
+h1,
+h5,
+p {
+  font-family: 'Didact Gothic', sans-serif;
+}
+a {
+  color: grey;
+}
+.list-menu {
+  border: 1px solid grey;
+  border-radius: .3rem;
+}
+.contain {
+  margin-top: 2%;
+}
+.main {
+  background-color: rgba(96, 169, 202, 0.5);
+  height: auto;
+}
+.inner-addon {
+  position: relative;
+}
+.inner-addon .fi-magnifying-glass {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  color: grey;
+}
+.left-addon .fi-magnifying-glass {
+  left: 0px;
+}
+.left-addon input {
+  padding-left: 30px;
+}
+.favorite {
+  margin-top: 1rem;
+}
+.historial {
+  margin-top: 1rem;
+}
+.hist-list {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+[src$="svg"] {
+  width: 100%;
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  body {
+    background-image: url(../img/fondo.jpeg);
+    background-size: auto;
+}
+  }
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
