@@ -1,0 +1,30 @@
+.brand {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.logo {
+  width: 12rem;
+  height: auto;
+}
+.image {
+  height: 100%;
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 87%;
+}
+.color {
+  min-height: 100%;
+}
+[src$="svg"] {
+  width: 4rem;
+  height: auto;
+  margin-bottom: 15%;
+}

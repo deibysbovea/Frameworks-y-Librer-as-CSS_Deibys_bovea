@@ -1,0 +1,58 @@
+body {
+  background-color: #d8e7f2;
+}
+h1 {
+  text-align: center;
+}
+.header {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  background-color: #FF3462;
+}
+[href*="#"] {
+  color: white;
+}
+.contain {
+  margin-top: 1%;
+}
+.article {
+  background-color: white;
+  margin-bottom: 2%;
+  box-shadow: 0 3px rgba(147, 170, 206, 0.2);();
+}
+.search {
+  margin-bottom: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
+  background-color: white;
+}
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.logo img {
+  width: 10em;
+  padding: 3%;
+}
+.post-image {
+  padding: 2%;
+}
+.redes-sociales {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.glyphicon.glyphicon-user {
+  font-size: 43px;
+  text-align: center;
+}
+.glyphicon.glyphicon-search {
+  font-size: 18px;
+}
